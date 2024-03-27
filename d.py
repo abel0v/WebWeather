@@ -35,6 +35,7 @@ def viewpost(postnum):
 
 @app.route('/raspis')
 def raspiss():
+
     return render_template('rasp.html')
 
 
@@ -52,3 +53,5 @@ def print_items():
 
 if __name__ == "__main__":
     app.run(port=8080, host='127.0.0.1')
+
+#was updated 27.03.24
